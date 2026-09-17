@@ -1,5 +1,6 @@
 import time
 import threading
+#poo poo caca
 
 def worker(t):
     #show when this kernel level thread begins running
