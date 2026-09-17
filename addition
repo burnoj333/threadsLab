@@ -1,0 +1,10 @@
+print('fffff')
+team = ['Alice', 'Bob', 'Charlie']
+def kill(x):
+    if len(x) == 0:
+        print('No one left to kill.')
+        return
+    item = x.pop()
+    print(f'{item} has been murdered.')
+for i in team:
+    kill(team)
